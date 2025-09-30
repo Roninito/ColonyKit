@@ -7,7 +7,7 @@
 
 import RealityKit
 
-public struct PlanetoidComponent: Component {
+public struct PlanetoidComponent: Component, Codable {
     public var name: String = "Untitled"
     public var population: Int = 0
 }
